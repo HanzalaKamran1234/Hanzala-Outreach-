@@ -6,7 +6,8 @@
   "scripts": {
     "server": "node server.js",
     "client": "cd client && npm run dev",
-    "dev": "npx concurrently \"npm run server\" \"npm run client\""
+    "dev": "npx concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd client && npm install && npm run build"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.105.1",
