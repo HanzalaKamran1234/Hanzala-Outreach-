@@ -43,7 +43,10 @@ function App() {
     try {
       await axios.post(`${API_URL}/scrape`, filters);
       setTimeout(fetchLeads, 3000);
-    } catch (err) { alert('Failed to start scraping'); }
+    } catch (err) { 
+      const msg = err.response?.data?.error || err.message;
+      alert('Scraping Error: ' + msg); 
+    }
     finally { setIsScraping(false); }
   };
 

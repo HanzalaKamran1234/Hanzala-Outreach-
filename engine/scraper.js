@@ -1,86 +1,51 @@
 const google = require('google-it');
-const { validateEmail } = require('./validator');
 const { supabase } = require('./supabase');
 
-async function runScraper(targetCount = 5, filters = {}) {
+async function runScraper(targetCount = 2, filters = {}) {
     const { country = 'USA', city = '', niche = '', role = 'Founder' } = filters;
     
-    console.log(`🚀 [Scraping] ${niche} in ${city}, ${country}...`);
+    console.log(`🚀 [Scraping] ${niche}...`);
 
     let foundCount = 0;
-    
-    const queries = [
-        `"${niche}" "${city}" "${country}" "email" "gmail.com"`,
-        `"${niche}" "${city}" "${country}" "contact" "email"`,
-        `site:facebook.com "${niche}" "${city}" "${country}" "email"`,
-        `site:linkedin.com "${role}" "${niche}" "${city}" "email"`
-    ];
+    const query = `"${niche}" "${city}" "${country}" "email" "gmail.com"`;
 
-    for (let i = 0; i < queries.length; i++) {
-        if (foundCount >= targetCount) break;
+    try {
+        const results = await google({ query, limit: 10, disableConsole: true });
 
-        const query = queries[i];
+        for (const res of results) {
+            if (foundCount >= targetCount) break;
 
-        try {
-            console.log(`Query: ${query}`);
-            await new Promise(r => setTimeout(r, 2000));
+            const content = ((res.title || '') + ' ' + (res.snippet || '')).toLowerCase();
+            const emailMatch = content.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
+            
+            if (emailMatch) {
+                const email = emailMatch[0].toLowerCase();
+                
+                const { data: existing } = await supabase.from('leads').select('email').eq('email', email).single();
+                if (existing) continue;
 
-            const results = await google({ query, limit: 10, disableConsole: true });
+                const bizName = (res.title || 'Unknown').split('-')[0].split('|')[0].trim();
+                
+                const lead = {
+                    name: role,
+                    company: bizName,
+                    email: email,
+                    city: city || 'N/A',
+                    country: country || 'USA',
+                    niche: niche,
+                    status: 'Not Sent',
+                    validation_status: 'Valid'
+                };
 
-            for (const res of results) {
-                if (foundCount >= targetCount) break;
-
-                try {
-                    const snippet = res.snippet || '';
-                    const title = res.title || '';
-                    const content = (title + ' ' + snippet).toLowerCase();
-                    
-                    const emailMatch = content.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/);
-                    
-                    if (emailMatch) {
-                        const email = emailMatch[0].toLowerCase();
-                        
-                        const { data: existing } = await supabase
-                            .from('leads')
-                            .select('email')
-                            .eq('email', email)
-                            .single();
-
-                        if (existing) continue;
-
-                        const validationStatus = await validateEmail(email);
-                        
-                        if (validationStatus === 'Invalid') continue;
-
-                        const bizName = title.split('-')[0].split('|')[0].trim() || 'Unknown Company';
-                        
-                        const lead = {
-                            name: role,
-                            company: bizName,
-                            email: email,
-                            city: city || 'N/A',
-                            country: country || 'USA',
-                            niche: niche,
-                            status: 'Not Sent',
-                            validation_status: validationStatus
-                        };
-
-                        const { error } = await supabase.from('leads').insert([lead]);
-                            if (error) continue;
-
-                            foundCount++;
-                            console.log(`Found: ${email}`);
-                        }
-                    }
-                } catch (e) {}
+                await supabase.from('leads').insert([lead]);
+                foundCount++;
             }
-        } catch (err) {
-            console.error('Search error:', err.message);
         }
+    } catch (err) {
+        console.error('Scrape error:', err.message);
     }
 
     return { count: foundCount };
 }
 
 module.exports = { runScraper };
-

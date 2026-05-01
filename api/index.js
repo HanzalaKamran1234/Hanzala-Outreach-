@@ -37,6 +37,7 @@ app.post('/api/scrape', async (req, res) => {
         const results = await runScraper(targetCount || 5, { country, city, niche, role });
         res.json({ message: 'Scraping finished', count: results.count });
     } catch (err) {
+        console.error('Scrape Endpoint Error:', err);
         res.status(500).json({ error: err.message });
     }
 });
