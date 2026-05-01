@@ -8,3 +8,5 @@ db/activity.log
 .vercel
 client/node_modules
 client/dist
+
+.vercel
