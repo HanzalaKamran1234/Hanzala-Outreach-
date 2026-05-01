@@ -1,0 +1,640 @@
+[
+  {
+    "company": "Taylor Stitch",
+    "website": "https://www.taylorstitch.com/",
+    "name": "Mike Maher",
+    "role": "Co-Founder & CEO",
+    "email": "mike@taylorstitch.com",
+    "niche": "eCommerce (Fashion)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Missing real-time sizing assistance and automated fit recommendations.",
+    "pain_point": "high return rates and cart abandonment due to sizing uncertainty",
+    "benefits": [
+      "AI Sizing Assistant",
+      "Instant Fit Recommendations",
+      "Automated Return Reduction"
+    ],
+    "outcome": "25% fewer returns and increased checkout confidence",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Taylor Stitch",
+      "body": "Hi Mike,\n\nI noticed that many growing eCommerce brands like Taylor Stitch still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems high return rates and cart abandonment due to sizing uncertainty. I help businesses automate things like AI Sizing Assistant, Instant Fit Recommendations, and Automated Return Reduction so they can save 10–20 hours per week and 25% fewer returns and increased checkout confidence.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Beardbrand",
+    "website": "https://www.beardbrand.com/",
+    "name": "Eric Bandholz",
+    "role": "Founder & CEO",
+    "email": "eric@beardbrand.com",
+    "niche": "eCommerce (Grooming)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No automated grooming routine builder or personalized product subscription flows.",
+    "pain_point": "customers not knowing which products work together, leading to lower cart values",
+    "benefits": [
+      "Routine Builder AI",
+      "Automated Subscription Upsells",
+      "Personalized Care Flows"
+    ],
+    "outcome": "40% higher average order value through guided routine building",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Beardbrand",
+      "body": "Hi Eric,\n\nI noticed that many growing eCommerce brands like Beardbrand still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems customers not knowing which products work together, leading to lower cart values. I help businesses automate things like Routine Builder AI, Automated Subscription Upsells, and Personalized Care Flows so they can save 10–20 hours per week and 40% higher average order value through guided routine building.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Beefcake Swimwear",
+    "website": "https://www.beefcakeswimwear.com/",
+    "name": "Mel Wells",
+    "role": "Founder & CEO",
+    "email": "mel@beefcakeswimwear.com",
+    "niche": "eCommerce (Fashion)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Missing real-time sizing assistance and automated fit recommendations.",
+    "pain_point": "high return rates and cart abandonment due to sizing uncertainty",
+    "benefits": [
+      "AI Sizing Assistant",
+      "Instant Fit Recommendations",
+      "Automated Return Reduction"
+    ],
+    "outcome": "25% fewer returns and increased checkout confidence",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Beefcake Swimwear",
+      "body": "Hi Mel,\n\nI noticed that many growing eCommerce brands like Beefcake Swimwear still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems high return rates and cart abandonment due to sizing uncertainty. I help businesses automate things like AI Sizing Assistant, Instant Fit Recommendations, and Automated Return Reduction so they can save 10–20 hours per week and 25% fewer returns and increased checkout confidence.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Adored Vintage",
+    "website": "https://www.adoredvintage.com/",
+    "name": "Rodellee Bas",
+    "role": "Founder & Owner",
+    "email": "rodellee@adoredvintage.com",
+    "niche": "eCommerce (Fashion)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Missing real-time sizing assistance and automated fit recommendations.",
+    "pain_point": "high return rates and cart abandonment due to sizing uncertainty",
+    "benefits": [
+      "AI Sizing Assistant",
+      "Instant Fit Recommendations",
+      "Automated Return Reduction"
+    ],
+    "outcome": "25% fewer returns and increased checkout confidence",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Adored Vintage",
+      "body": "Hi Rodellee,\n\nI noticed that many growing eCommerce brands like Adored Vintage still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems high return rates and cart abandonment due to sizing uncertainty. I help businesses automate things like AI Sizing Assistant, Instant Fit Recommendations, and Automated Return Reduction so they can save 10–20 hours per week and 25% fewer returns and increased checkout confidence.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Verve Coffee Roasters",
+    "website": "https://www.vervecoffee.com/",
+    "name": "Colby Barr",
+    "role": "Co-Founder",
+    "email": "colby@vervecoffee.com",
+    "niche": "eCommerce (Beverage)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Lack of automated subscription management and personalized replenishment reminders.",
+    "pain_point": "churn in subscription models due to lack of proactive engagement",
+    "benefits": [
+      "Replenishment AI",
+      "Subscription Loyalty Workflows",
+      "Automated Taste Profiles"
+    ],
+    "outcome": "increased customer retention and recurring revenue",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Verve Coffee Roasters",
+      "body": "Hi Colby,\n\nI noticed that many growing eCommerce brands like Verve Coffee Roasters still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems churn in subscription models due to lack of proactive engagement. I help businesses automate things like Replenishment AI, Subscription Loyalty Workflows, and Automated Taste Profiles so they can save 10–20 hours per week and increased customer retention and recurring revenue.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Soko Glam",
+    "website": "https://sokoglam.com/",
+    "name": "Charlotte Cho",
+    "role": "Co-Founder",
+    "email": "charlotte@sokoglam.com",
+    "niche": "eCommerce (Beauty)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No virtual shade matching or automated skincare routine diagnostic.",
+    "pain_point": "shoppers hesitant to buy complex beauty products without professional guidance",
+    "benefits": [
+      "Virtual Shade Matcher",
+      "Skincare Diagnostic AI",
+      "Automated Routine Follow-ups"
+    ],
+    "outcome": "15% conversion lift through personalized product matching",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Soko Glam",
+      "body": "Hi Charlotte,\n\nI noticed that many growing eCommerce brands like Soko Glam still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems shoppers hesitant to buy complex beauty products without professional guidance. I help businesses automate things like Virtual Shade Matcher, Skincare Diagnostic AI, and Automated Routine Follow-ups so they can save 10–20 hours per week and 15% conversion lift through personalized product matching.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Haus",
+    "website": "https://drink.haus/",
+    "name": "Helena Price Hambrecht",
+    "role": "Co-Founder & CEO",
+    "email": "helena@drink.haus",
+    "niche": "eCommerce (Beverage)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Lack of automated subscription management and personalized replenishment reminders.",
+    "pain_point": "churn in subscription models due to lack of proactive engagement",
+    "benefits": [
+      "Replenishment AI",
+      "Subscription Loyalty Workflows",
+      "Automated Taste Profiles"
+    ],
+    "outcome": "increased customer retention and recurring revenue",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Haus",
+      "body": "Hi Helena,\n\nI noticed that many growing eCommerce brands like Haus still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems churn in subscription models due to lack of proactive engagement. I help businesses automate things like Replenishment AI, Subscription Loyalty Workflows, and Automated Taste Profiles so they can save 10–20 hours per week and increased customer retention and recurring revenue.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Magic Spoon",
+    "website": "https://magicspoon.com/",
+    "name": "Gabi Lewis",
+    "role": "Co-Founder",
+    "email": "gabi@magicspoon.com",
+    "niche": "eCommerce (Food)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No automated recipe integration or personalized meal planning assistants.",
+    "pain_point": "one-off purchases without a clear path to repeat usage",
+    "benefits": [
+      "Recipe Integration AI",
+      "Automated Meal Planner",
+      "Subscription Box Personalization"
+    ],
+    "outcome": "30% more repeat purchases through value-added content automation",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Magic Spoon",
+      "body": "Hi Gabi,\n\nI noticed that many growing eCommerce brands like Magic Spoon still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems one-off purchases without a clear path to repeat usage. I help businesses automate things like Recipe Integration AI, Automated Meal Planner, and Subscription Box Personalization so they can save 10–20 hours per week and 30% more repeat purchases through value-added content automation.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Death Wish Coffee",
+    "website": "https://www.deathwishcoffee.com/",
+    "name": "Mike Brown",
+    "role": "Founder",
+    "email": "mike@deathwishcoffee.com",
+    "niche": "eCommerce (Beverage)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Lack of automated subscription management and personalized replenishment reminders.",
+    "pain_point": "churn in subscription models due to lack of proactive engagement",
+    "benefits": [
+      "Replenishment AI",
+      "Subscription Loyalty Workflows",
+      "Automated Taste Profiles"
+    ],
+    "outcome": "increased customer retention and recurring revenue",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Death Wish Coffee",
+      "body": "Hi Mike,\n\nI noticed that many growing eCommerce brands like Death Wish Coffee still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems churn in subscription models due to lack of proactive engagement. I help businesses automate things like Replenishment AI, Subscription Loyalty Workflows, and Automated Taste Profiles so they can save 10–20 hours per week and increased customer retention and recurring revenue.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Partake Foods",
+    "website": "https://partakefoods.com/",
+    "name": "Denise Woodard",
+    "role": "Founder & CEO",
+    "email": "denise@partakefoods.com",
+    "niche": "eCommerce (Food)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No automated recipe integration or personalized meal planning assistants.",
+    "pain_point": "one-off purchases without a clear path to repeat usage",
+    "benefits": [
+      "Recipe Integration AI",
+      "Automated Meal Planner",
+      "Subscription Box Personalization"
+    ],
+    "outcome": "30% more repeat purchases through value-added content automation",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Partake Foods",
+      "body": "Hi Denise,\n\nI noticed that many growing eCommerce brands like Partake Foods still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems one-off purchases without a clear path to repeat usage. I help businesses automate things like Recipe Integration AI, Automated Meal Planner, and Subscription Box Personalization so they can save 10–20 hours per week and 30% more repeat purchases through value-added content automation.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "WP Standard",
+    "website": "https://wpstandard.com/",
+    "name": "Ryan Barr",
+    "role": "Founder & CEO",
+    "email": "ryan@wpstandard.com",
+    "niche": "eCommerce (Fashion)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Missing real-time sizing assistance and automated fit recommendations.",
+    "pain_point": "high return rates and cart abandonment due to sizing uncertainty",
+    "benefits": [
+      "AI Sizing Assistant",
+      "Instant Fit Recommendations",
+      "Automated Return Reduction"
+    ],
+    "outcome": "25% fewer returns and increased checkout confidence",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for WP Standard",
+      "body": "Hi Ryan,\n\nI noticed that many growing eCommerce brands like WP Standard still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems high return rates and cart abandonment due to sizing uncertainty. I help businesses automate things like AI Sizing Assistant, Instant Fit Recommendations, and Automated Return Reduction so they can save 10–20 hours per week and 25% fewer returns and increased checkout confidence.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Tattly",
+    "website": "https://tattly.com/",
+    "name": "Tina Roth Eisenberg",
+    "role": "Founder",
+    "email": "tina@tattly.com",
+    "niche": "eCommerce (Fashion)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Missing real-time sizing assistance and automated fit recommendations.",
+    "pain_point": "high return rates and cart abandonment due to sizing uncertainty",
+    "benefits": [
+      "AI Sizing Assistant",
+      "Instant Fit Recommendations",
+      "Automated Return Reduction"
+    ],
+    "outcome": "25% fewer returns and increased checkout confidence",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Tattly",
+      "body": "Hi Tina,\n\nI noticed that many growing eCommerce brands like Tattly still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems high return rates and cart abandonment due to sizing uncertainty. I help businesses automate things like AI Sizing Assistant, Instant Fit Recommendations, and Automated Return Reduction so they can save 10–20 hours per week and 25% fewer returns and increased checkout confidence.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Pura Vida Bracelets",
+    "website": "https://www.puravidabracelets.com/",
+    "name": "Griffin Thall",
+    "role": "Co-Founder & CEO",
+    "email": "griffin@puravidabracelets.com",
+    "niche": "eCommerce (Fashion)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Missing real-time sizing assistance and automated fit recommendations.",
+    "pain_point": "high return rates and cart abandonment due to sizing uncertainty",
+    "benefits": [
+      "AI Sizing Assistant",
+      "Instant Fit Recommendations",
+      "Automated Return Reduction"
+    ],
+    "outcome": "25% fewer returns and increased checkout confidence",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Pura Vida Bracelets",
+      "body": "Hi Griffin,\n\nI noticed that many growing eCommerce brands like Pura Vida Bracelets still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems high return rates and cart abandonment due to sizing uncertainty. I help businesses automate things like AI Sizing Assistant, Instant Fit Recommendations, and Automated Return Reduction so they can save 10–20 hours per week and 25% fewer returns and increased checkout confidence.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Ridge Wallet",
+    "website": "https://ridgewallet.com/",
+    "name": "Sean Frank",
+    "role": "CEO",
+    "email": "sean@ridgewallet.com",
+    "niche": "eCommerce (Fashion)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Missing real-time sizing assistance and automated fit recommendations.",
+    "pain_point": "high return rates and cart abandonment due to sizing uncertainty",
+    "benefits": [
+      "AI Sizing Assistant",
+      "Instant Fit Recommendations",
+      "Automated Return Reduction"
+    ],
+    "outcome": "25% fewer returns and increased checkout confidence",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Ridge Wallet",
+      "body": "Hi Sean,\n\nI noticed that many growing eCommerce brands like Ridge Wallet still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems high return rates and cart abandonment due to sizing uncertainty. I help businesses automate things like AI Sizing Assistant, Instant Fit Recommendations, and Automated Return Reduction so they can save 10–20 hours per week and 25% fewer returns and increased checkout confidence.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "MuteSix",
+    "website": "https://mutesix.com/",
+    "name": "Pierson Krass",
+    "role": "CEO",
+    "email": "pierson@mutesix.com",
+    "niche": "Agency (Growth)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "Missing an automated client performance dashboard and real-time ROI tracker.",
+    "pain_point": "high manual overhead in client reporting and lead vetting",
+    "benefits": [
+      "Auto-Reporting Dashboard",
+      "Real-Time ROI Tracker",
+      "Automated Lead Qualifier"
+    ],
+    "outcome": "50% less time spent on manual reporting and higher client clarity",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for MuteSix",
+      "body": "Hi Pierson,\n\nI noticed that many growing agencies like MuteSix still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems high manual overhead in client reporting and lead vetting. I help businesses automate things like Auto-Reporting Dashboard, Real-Time ROI Tracker, and Automated Lead Qualifier so they can save 10–20 hours per week and 50% less time spent on manual reporting and higher client clarity.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Power Digital Marketing",
+    "website": "https://powerdigitalmarketing.com/",
+    "name": "Grayson Lafrenz",
+    "role": "CEO",
+    "email": "grayson@powerdigital.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Power Digital Marketing",
+      "body": "Hi Grayson,\n\nI noticed that many growing agencies like Power Digital Marketing still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Tinuiti",
+    "website": "https://tinuiti.com/",
+    "name": "Zach Morrison",
+    "role": "CEO",
+    "email": "zach.morrison@tinuiti.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Tinuiti",
+      "body": "Hi Zach,\n\nI noticed that many growing agencies like Tinuiti still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Wpromote",
+    "website": "https://www.wpromote.com/",
+    "name": "Michael Lazerow",
+    "role": "Founder & CEO",
+    "email": "michael@wpromote.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Wpromote",
+      "body": "Hi Michael,\n\nI noticed that many growing agencies like Wpromote still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Zero Gravity Marketing",
+    "website": "https://zerogravitymarketing.com/",
+    "name": "Chris Sietsema",
+    "role": "President",
+    "email": "chris@zerogravitymarketing.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Zero Gravity Marketing",
+      "body": "Hi Chris,\n\nI noticed that many growing agencies like Zero Gravity Marketing still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Coalition Technologies",
+    "website": "https://coalitiontechnologies.com/",
+    "name": "Joel Gross",
+    "role": "Founder & CEO",
+    "email": "joel@coalitiontechnologies.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Coalition Technologies",
+      "body": "Hi Joel,\n\nI noticed that many growing agencies like Coalition Technologies still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "WebFX",
+    "website": "https://www.webfx.com/",
+    "name": "Bill Craig",
+    "role": "Co-Founder",
+    "email": "bill@webfx.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for WebFX",
+      "body": "Hi Bill,\n\nI noticed that many growing agencies like WebFX still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Socialfly",
+    "website": "https://www.socialflyny.com/",
+    "name": "Courtney Spritzer",
+    "role": "Co-Founder & CEO",
+    "email": "courtney@socialflyny.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Socialfly",
+      "body": "Hi Courtney,\n\nI noticed that many growing agencies like Socialfly still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Disruptive Advertising",
+    "website": "https://disruptiveadvertising.com/",
+    "name": "Jacob Baadsgaard",
+    "role": "Founder & CEO",
+    "email": "jacob@disruptiveadvertising.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Disruptive Advertising",
+      "body": "Hi Jacob,\n\nI noticed that many growing agencies like Disruptive Advertising still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Ignite Visibility",
+    "website": "https://ignitevisibility.com/",
+    "name": "Krish Coughran",
+    "role": "CEO",
+    "email": "krish@ignitevisibility.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Ignite Visibility",
+      "body": "Hi Krish,\n\nI noticed that many growing agencies like Ignite Visibility still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Titan Growth",
+    "website": "https://www.titangrowth.com/",
+    "name": "Danny Shepherd",
+    "role": "CEO",
+    "email": "danny@titangrowth.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Titan Growth",
+      "body": "Hi Danny,\n\nI noticed that many growing agencies like Titan Growth still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "SmartSites",
+    "website": "https://www.smartsites.com/",
+    "name": "Alex Melen",
+    "role": "Co-Founder",
+    "email": "alex@smartsites.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for SmartSites",
+      "body": "Hi Alex,\n\nI noticed that many growing agencies like SmartSites still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Inflow",
+    "website": "https://www.goinflow.com/",
+    "name": "Mike Belasco",
+    "role": "Founder",
+    "email": "mike@goinflow.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Inflow",
+      "body": "Hi Mike,\n\nI noticed that many growing agencies like Inflow still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "OuterBox",
+    "website": "https://www.outerboxdesign.com/",
+    "name": "Justin Smith",
+    "role": "Founder & CEO",
+    "email": "jsmith@outerbox.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for OuterBox",
+      "body": "Hi Justin,\n\nI noticed that many growing agencies like OuterBox still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  },
+  {
+    "company": "Thrive Internet Marketing Agency",
+    "website": "https://thriveagency.com/",
+    "name": "Matt Bowman",
+    "role": "President",
+    "email": "matt@thriveagency.com",
+    "niche": "Agency (Marketing)",
+    "status": "new",
+    "verified": true,
+    "automation_gap": "No interactive strategy generator or automated budget optimization tool.",
+    "pain_point": "prospects needing manual audits before seeing the value of your services",
+    "benefits": [
+      "Strategy Generator AI",
+      "Auto-Budget Optimizer",
+      "Interactive Performance Audits"
+    ],
+    "outcome": "faster sales cycles by providing instant value to prospects",
+    "personalizedEmail": {
+      "subject": "Quick way to save 10+ hours/week for Thrive Internet Marketing Agency",
+      "body": "Hi Matt,\n\nI noticed that many growing agencies like Thrive Internet Marketing Agency still handle a lot of backend work manually — which can slow things down and waste valuable time.\n\nLooking at your site, it seems prospects needing manual audits before seeing the value of your services. I help businesses automate things like Strategy Generator AI, Auto-Budget Optimizer, and Interactive Performance Audits so they can save 10–20 hours per week and faster sales cycles by providing instant value to prospects.\n\nHere’s some of my work:\nhttps://hanzala-kamran.vercel.app/\n\nIf you’re open, I can share a quick idea on what you could automate immediately.\n\nWorth a quick chat?\n\n— Hanzala"
+    }
+  }
+]

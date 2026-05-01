@@ -1,0 +1,1538 @@
+[
+  {
+    "firstName": "Jon",
+    "company": "Kirkland & Ellis",
+    "website": "https://www.kirkland.com",
+    "email": "jon.ballis@kirkland.com",
+    "city": "Chicago",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No chatbot for lead capture.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Jon,\n\nI came across Kirkland & Ellis and noticed no chatbot for lead capture.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Kirkland & Ellis could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:04:04.974Z"
+  },
+  {
+    "firstName": "Eric",
+    "company": "Skadden",
+    "website": "https://www.skadden.com",
+    "email": "eric.friedman@skadden.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Eric, quick growth idea",
+      "body": "Hi Eric,\n\nI came across Skadden and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Skadden could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:04:24.299Z"
+  },
+  {
+    "firstName": "Frank",
+    "company": "DLA Piper",
+    "website": "https://www.dlapiper.com",
+    "email": "frank.ryan@dlapiper.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Quick idea for DLA Piper",
+      "body": "Hi Frank,\n\nI came across DLA Piper and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe DLA Piper could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:04:34.125Z"
+  },
+  {
+    "firstName": "Julie",
+    "company": "Ropes & Gray",
+    "website": "https://www.ropesgray.com",
+    "email": "julie.jones@ropesgray.com",
+    "city": "Boston",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No FAQ automation.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Ropes & Gray",
+      "body": "Hi Julie,\n\nI came across Ropes & Gray and noticed no faq automation.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Ropes & Gray could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:04:53.181Z"
+  },
+  {
+    "firstName": "Brad",
+    "company": "Paul, Weiss",
+    "website": "https://www.paulweiss.com",
+    "email": "brad.karp@paulweiss.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Paul, Weiss",
+      "body": "Hi Brad,\n\nI came across Paul, Weiss and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Paul, Weiss could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:05:12.477Z"
+  },
+  {
+    "firstName": "Barbara",
+    "company": "Gibson Dunn",
+    "website": "https://www.gibsondunn.com",
+    "email": "barbara.becker@gibsondunn.com",
+    "city": "Los Angeles",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No chatbot for lead capture.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Barbara,\n\nI came across Gibson Dunn and noticed no chatbot for lead capture.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Gibson Dunn could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:05:21.513Z"
+  },
+  {
+    "firstName": "Alden",
+    "company": "Simpson Thacher",
+    "website": "https://www.stblaw.com",
+    "email": "alden.millard@stblaw.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Simpson Thacher website",
+      "body": "Hi Alden,\n\nI came across Simpson Thacher and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Simpson Thacher could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:05:31.596Z"
+  },
+  {
+    "firstName": "William",
+    "company": "Latham & Watkins",
+    "website": "https://www.lw.com",
+    "email": "william.voge@lw.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Latham & Watkins website",
+      "body": "Hi William,\n\nI came across Latham & Watkins and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Latham & Watkins could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:05:40.808Z"
+  },
+  {
+    "firstName": "Kim",
+    "company": "Akin Gump",
+    "website": "https://www.akingump.com",
+    "email": "kim.koopersmith@akingump.com",
+    "city": "Washington",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Akin Gump",
+      "body": "Hi Kim,\n\nI came across Akin Gump and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Akin Gump could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:05:50.099Z"
+  },
+  {
+    "firstName": "Jami",
+    "company": "Morgan Lewis",
+    "website": "https://www.morganlewis.com",
+    "email": "jami.mckeon@morganlewis.com",
+    "city": "Philadelphia",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Website has no instant consultation booking.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Jami,\n\nI came across Morgan Lewis and noticed website has no instant consultation booking.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Morgan Lewis could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:06:00.176Z"
+  },
+  {
+    "firstName": "Yvette",
+    "company": "Sidley Austin",
+    "website": "https://www.sidley.com",
+    "email": "yvette.ostolaza@sidley.com",
+    "city": "Chicago",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Sidley Austin",
+      "body": "Hi Yvette,\n\nI came across Sidley Austin and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Sidley Austin could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:06:10.107Z"
+  },
+  {
+    "firstName": "Wally",
+    "company": "Hunton Andrews Kurth",
+    "website": "https://www.huntonak.com",
+    "email": "wally.martinez@huntonak.com",
+    "city": "Washington",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Hunton Andrews Kurth website",
+      "body": "Hi Wally,\n\nI came across Hunton Andrews Kurth and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Hunton Andrews Kurth could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:06:20.127Z"
+  },
+  {
+    "firstName": "Brian",
+    "company": "Marin County Counsel",
+    "website": "https://www.marincounty.org",
+    "email": "brian.washington@marincounty.org",
+    "city": "San Rafael",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak CTA buttons.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Marin County Counsel",
+      "body": "Hi Brian,\n\nI came across Marin County Counsel and noticed weak cta buttons.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Marin County Counsel could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:06:34.612Z"
+  },
+  {
+    "firstName": "Thomas",
+    "company": "Davis Polk",
+    "website": "https://www.davispolk.com",
+    "email": "thomas.reid@davispolk.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No case-result conversion funnel.",
+    "personalizedEmail": {
+      "subject": "Thomas, quick growth idea",
+      "body": "Hi Thomas,\n\nI came across Davis Polk and noticed no case-result conversion funnel.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Davis Polk could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:06:44.998Z"
+  },
+  {
+    "firstName": "Carter",
+    "company": "Carter Ledyard & Milburn",
+    "website": "https://www.clm.com",
+    "email": "carter.ledyard@clm.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Carter, quick growth idea",
+      "body": "Hi Carter,\n\nI came across Carter Ledyard & Milburn and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Carter Ledyard & Milburn could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:06:55.147Z"
+  },
+  {
+    "firstName": "Steve",
+    "company": "Hogan Lovells",
+    "website": "https://www.hoganlovells.com",
+    "email": "steve.immelt@hoganlovells.com",
+    "city": "Washington",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak CTA buttons.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Hogan Lovells website",
+      "body": "Hi Steve,\n\nI came across Hogan Lovells and noticed weak cta buttons.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Hogan Lovells could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:07:05.063Z"
+  },
+  {
+    "firstName": "Mark",
+    "company": "Eversheds Sutherland",
+    "website": "https://www.eversheds-sutherland.com",
+    "email": "mark.wasserman@eversheds-sutherland.com",
+    "city": "Atlanta",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Mark,\n\nI came across Eversheds Sutherland and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Eversheds Sutherland could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:07:14.215Z"
+  },
+  {
+    "firstName": "Mitch",
+    "company": "Orrick",
+    "website": "https://www.orrick.com",
+    "email": "mitch.zuklie@orrick.com",
+    "city": "San Francisco",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Orrick website",
+      "body": "Hi Mitch,\n\nI came across Orrick and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Orrick could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:07:24.382Z"
+  },
+  {
+    "firstName": "Scott",
+    "company": "Pepper Hamilton",
+    "website": "https://www.pepperlaw.com",
+    "email": "scott.green@pepperlaw.com",
+    "city": "Philadelphia",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Contact form buried.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Pepper Hamilton",
+      "body": "Hi Scott,\n\nI came across Pepper Hamilton and noticed contact form buried.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Pepper Hamilton could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:07:33.854Z"
+  },
+  {
+    "firstName": "Elliott",
+    "company": "Dentons",
+    "website": "https://www.dentons.com",
+    "email": "elliott.portnoy@dentons.com",
+    "city": "Washington",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Contact form buried.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Dentons website",
+      "body": "Hi Elliott,\n\nI came across Dentons and noticed contact form buried.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Dentons could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:07:43.361Z"
+  },
+  {
+    "firstName": "Richard",
+    "company": "Greenberg Traurig",
+    "website": "https://www.gtlaw.com",
+    "email": "richard.rosenbaum@gtlaw.com",
+    "city": "Miami",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No trust signals.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Greenberg Traurig website",
+      "body": "Hi Richard,\n\nI came across Greenberg Traurig and noticed no trust signals.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Greenberg Traurig could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:07:52.673Z"
+  },
+  {
+    "firstName": "Roger",
+    "company": "DLA Piper",
+    "website": "https://www.dlapiper.com",
+    "email": "roger.meltzer@dlapiper.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Roger,\n\nI came across DLA Piper and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe DLA Piper could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:08:02.573Z"
+  },
+  {
+    "firstName": "Barry",
+    "company": "Simpson Thacher",
+    "website": "https://www.stblaw.com",
+    "email": "barry.ostrager@stblaw.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Barry, quick growth idea",
+      "body": "Hi Barry,\n\nI came across Simpson Thacher and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Simpson Thacher could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:08:12.936Z"
+  },
+  {
+    "firstName": "David",
+    "company": "Honigman",
+    "website": "https://www.honigman.com",
+    "email": "david.foltyn@honigman.com",
+    "city": "Detroit",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi David,\n\nI came across Honigman and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Honigman could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:08:23.075Z"
+  },
+  {
+    "firstName": "Alexander",
+    "company": "Reed Smith",
+    "website": "https://www.reedsmith.com",
+    "email": "alexander.thomas@reedsmith.com",
+    "city": "Pittsburgh",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Reed Smith",
+      "body": "Hi Alexander,\n\nI came across Reed Smith and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Reed Smith could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:08:32.949Z"
+  },
+  {
+    "firstName": "Stephen",
+    "company": "Hogan Lovells",
+    "website": "https://www.hoganlovells.com",
+    "email": "stephen.j.@hoganlovells.com",
+    "city": "Washington",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Stephen,\n\nI came across Hogan Lovells and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Hogan Lovells could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:08:42.180Z"
+  },
+  {
+    "firstName": "Seth",
+    "company": "Paul Hastings",
+    "website": "https://www.paulhastings.com",
+    "email": "seth.zachary@paulhastings.com",
+    "city": "Los Angeles",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak CTA buttons.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Paul Hastings",
+      "body": "Hi Seth,\n\nI came across Paul Hastings and noticed weak cta buttons.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Paul Hastings could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:08:51.352Z"
+  },
+  {
+    "firstName": "Bill",
+    "company": "Latham & Watkins",
+    "website": "https://www.lw.com",
+    "email": "bill.voge@lw.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Bill, quick growth idea",
+      "body": "Hi Bill,\n\nI came across Latham & Watkins and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Latham & Watkins could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:09:01.644Z"
+  },
+  {
+    "firstName": "Joe",
+    "company": "Dentons",
+    "website": "https://www.dentons.com",
+    "email": "joe.andrew@dentons.com",
+    "city": "Washington",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Missed call issue.",
+    "personalizedEmail": {
+      "subject": "Joe, quick growth idea",
+      "body": "Hi Joe,\n\nI came across Dentons and noticed missed call issue.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Dentons could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:09:10.760Z"
+  },
+  {
+    "firstName": "David",
+    "company": "Fried Frank",
+    "website": "https://www.friedfrank.com",
+    "email": "david.greenwald@friedfrank.com",
+    "city": "New York City",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Fried Frank website",
+      "body": "Hi David,\n\nI came across Fried Frank and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Fried Frank could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:09:20.550Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Arnold & Porter",
+    "website": "https://www.arnoldporter.com",
+    "email": "james.jones@arnoldporter.com",
+    "city": "Washington",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Arnold & Porter website",
+      "body": "Hi James,\n\nI came across Arnold & Porter and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Arnold & Porter could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:09:30.333Z"
+  },
+  {
+    "firstName": "Jeffrey",
+    "company": "McDermott Will",
+    "website": "https://www.mwe.com",
+    "email": "jeffrey.stone@mwe.com",
+    "city": "Chicago",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak CTA buttons.",
+    "personalizedEmail": {
+      "subject": "Jeffrey, quick growth idea",
+      "body": "Hi Jeffrey,\n\nI came across McDermott Will and noticed weak cta buttons.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe McDermott Will could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:09:39.533Z"
+  },
+  {
+    "firstName": "Therese",
+    "company": "Bryan Cave",
+    "website": "https://www.bclplaw.com",
+    "email": "therese.pritchard@bclplaw.com",
+    "city": "St. Louis",
+    "niche": "Business Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Contact form buried.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Bryan Cave",
+      "body": "Hi Therese,\n\nI came across Bryan Cave and noticed contact form buried.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Bryan Cave could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:09:49.229Z"
+  },
+  {
+    "firstName": "Sarah",
+    "company": "Garcia & Associates Law",
+    "website": "https://www.garcialawhouston.com",
+    "email": "sarah.garcia@garcialawhouston.com",
+    "city": "Houston",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Outdated branding.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Sarah,\n\nI came across Garcia & Associates Law and noticed outdated branding.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Garcia & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:09:58.945Z"
+  },
+  {
+    "firstName": "Joseph",
+    "company": "Garcia & Associates Law",
+    "website": "https://www.garcialawphiladelphia.com",
+    "email": "joseph.garcia@garcialawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "Joseph, quick growth idea",
+      "body": "Hi Joseph,\n\nI came across Garcia & Associates Law and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Garcia & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:10:08.751Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Martinez & Associates Law",
+    "website": "https://www.martinezlawnewyork.com",
+    "email": "james.martinez@martinezlawnewyork.com",
+    "city": "New York",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak CTA buttons.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Martinez & Associates Law",
+      "body": "Hi James,\n\nI came across Martinez & Associates Law and noticed weak cta buttons.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Martinez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:10:18.842Z"
+  },
+  {
+    "firstName": "Elizabeth",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawcolumbus.com",
+    "email": "elizabeth.rodriguez@rodriguezlawcolumbus.com",
+    "city": "Columbus",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No trust signals.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Elizabeth,\n\nI came across Rodriguez & Associates Law and noticed no trust signals.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:10:28.506Z"
+  },
+  {
+    "firstName": "Jennifer",
+    "company": "Martinez & Associates Law",
+    "website": "https://www.martinezlawcolumbus.com",
+    "email": "jennifer.martinez@martinezlawcolumbus.com",
+    "city": "Columbus",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No chatbot for lead capture.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Martinez & Associates Law",
+      "body": "Hi Jennifer,\n\nI came across Martinez & Associates Law and noticed no chatbot for lead capture.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Martinez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:10:37.799Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Davis & Associates Law",
+    "website": "https://www.davislawphiladelphia.com",
+    "email": "james.davis@davislawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Outdated branding.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi James,\n\nI came across Davis & Associates Law and noticed outdated branding.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Davis & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:10:47.848Z"
+  },
+  {
+    "firstName": "Joseph",
+    "company": "Williams & Associates Law",
+    "website": "https://www.williamslawcharlotte.com",
+    "email": "joseph.williams@williamslawcharlotte.com",
+    "city": "Charlotte",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Williams & Associates Law website",
+      "body": "Hi Joseph,\n\nI came across Williams & Associates Law and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Williams & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:10:57.204Z"
+  },
+  {
+    "firstName": "William",
+    "company": "Williams & Associates Law",
+    "website": "https://www.williamslawchicago.com",
+    "email": "william.williams@williamslawchicago.com",
+    "city": "Chicago",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Williams & Associates Law",
+      "body": "Hi William,\n\nI came across Williams & Associates Law and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Williams & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:11:06.897Z"
+  },
+  {
+    "firstName": "Elizabeth",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawcharlotte.com",
+    "email": "elizabeth.rodriguez@rodriguezlawcharlotte.com",
+    "city": "Charlotte",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Elizabeth, quick growth idea",
+      "body": "Hi Elizabeth,\n\nI came across Rodriguez & Associates Law and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:11:16.690Z"
+  },
+  {
+    "firstName": "Jennifer",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawmiami.com",
+    "email": "jennifer.rodriguez@rodriguezlawmiami.com",
+    "city": "Miami",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Rodriguez & Associates Law",
+      "body": "Hi Jennifer,\n\nI came across Rodriguez & Associates Law and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:11:26.175Z"
+  },
+  {
+    "firstName": "Elizabeth",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawcharlotte.com",
+    "email": "elizabeth.rodriguez@rodriguezlawcharlotte.com",
+    "city": "Charlotte",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No chatbot for lead capture.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Rodriguez & Associates Law website",
+      "body": "Hi Elizabeth,\n\nI came across Rodriguez & Associates Law and noticed no chatbot for lead capture.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:11:35.324Z"
+  },
+  {
+    "firstName": "Susan",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawcharlotte.com",
+    "email": "susan.rodriguez@rodriguezlawcharlotte.com",
+    "city": "Charlotte",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No chatbot for lead capture.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Rodriguez & Associates Law website",
+      "body": "Hi Susan,\n\nI came across Rodriguez & Associates Law and noticed no chatbot for lead capture.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:11:45.969Z"
+  },
+  {
+    "firstName": "Thomas",
+    "company": "Jones & Associates Law",
+    "website": "https://www.joneslawhouston.com",
+    "email": "thomas.jones@joneslawhouston.com",
+    "city": "Houston",
+    "niche": "Family Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Thomas, quick growth idea",
+      "body": "Hi Thomas,\n\nI came across Jones & Associates Law and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Jones & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:11:58.119Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Jones & Associates Law",
+    "website": "https://www.joneslawatlanta.com",
+    "email": "james.jones@joneslawatlanta.com",
+    "city": "Atlanta",
+    "niche": "Family Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No FAQ automation.",
+    "personalizedEmail": {
+      "subject": "James, quick growth idea",
+      "body": "Hi James,\n\nI came across Jones & Associates Law and noticed no faq automation.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Jones & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:12:07.377Z"
+  },
+  {
+    "firstName": "Thomas",
+    "company": "Smith & Associates Law",
+    "website": "https://www.smithlawphiladelphia.com",
+    "email": "thomas.smith@smithlawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Smith & Associates Law",
+      "body": "Hi Thomas,\n\nI came across Smith & Associates Law and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Smith & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:12:17.280Z"
+  },
+  {
+    "firstName": "Mary",
+    "company": "Brown & Associates Law",
+    "website": "https://www.brownlawnewyork.com",
+    "email": "mary.brown@brownlawnewyork.com",
+    "city": "New York",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No case-result conversion funnel.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Brown & Associates Law",
+      "body": "Hi Mary,\n\nI came across Brown & Associates Law and noticed no case-result conversion funnel.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Brown & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:12:27.259Z"
+  },
+  {
+    "firstName": "David",
+    "company": "Martinez & Associates Law",
+    "website": "https://www.martinezlawdetroit.com",
+    "email": "david.martinez@martinezlawdetroit.com",
+    "city": "Detroit",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "David, quick growth idea",
+      "body": "Hi David,\n\nI came across Martinez & Associates Law and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Martinez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:12:36.211Z"
+  },
+  {
+    "firstName": "David",
+    "company": "Davis & Associates Law",
+    "website": "https://www.davislawphiladelphia.com",
+    "email": "david.davis@davislawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No chatbot for lead capture.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Davis & Associates Law",
+      "body": "Hi David,\n\nI came across Davis & Associates Law and noticed no chatbot for lead capture.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Davis & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:12:46.167Z"
+  },
+  {
+    "firstName": "Sarah",
+    "company": "Davis & Associates Law",
+    "website": "https://www.davislawhouston.com",
+    "email": "sarah.davis@davislawhouston.com",
+    "city": "Houston",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No trust signals.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Davis & Associates Law website",
+      "body": "Hi Sarah,\n\nI came across Davis & Associates Law and noticed no trust signals.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Davis & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:12:56.480Z"
+  },
+  {
+    "firstName": "Elizabeth",
+    "company": "Miller & Associates Law",
+    "website": "https://www.millerlawcolumbus.com",
+    "email": "elizabeth.miller@millerlawcolumbus.com",
+    "city": "Columbus",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No FAQ automation.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Miller & Associates Law website",
+      "body": "Hi Elizabeth,\n\nI came across Miller & Associates Law and noticed no faq automation.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Miller & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:13:05.742Z"
+  },
+  {
+    "firstName": "Robert",
+    "company": "Miller & Associates Law",
+    "website": "https://www.millerlawdetroit.com",
+    "email": "robert.miller@millerlawdetroit.com",
+    "city": "Detroit",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No case-result conversion funnel.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Miller & Associates Law website",
+      "body": "Hi Robert,\n\nI came across Miller & Associates Law and noticed no case-result conversion funnel.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Miller & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:13:14.991Z"
+  },
+  {
+    "firstName": "Michael",
+    "company": "Jones & Associates Law",
+    "website": "https://www.joneslawchicago.com",
+    "email": "michael.jones@joneslawchicago.com",
+    "city": "Chicago",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Jones & Associates Law website",
+      "body": "Hi Michael,\n\nI came across Jones & Associates Law and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Jones & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:13:24.713Z"
+  },
+  {
+    "firstName": "Elizabeth",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawmiami.com",
+    "email": "elizabeth.rodriguez@rodriguezlawmiami.com",
+    "city": "Miami",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak CTA buttons.",
+    "personalizedEmail": {
+      "subject": "Elizabeth, quick growth idea",
+      "body": "Hi Elizabeth,\n\nI came across Rodriguez & Associates Law and noticed weak cta buttons.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:13:34.049Z"
+  },
+  {
+    "firstName": "John",
+    "company": "Martinez & Associates Law",
+    "website": "https://www.martinezlawphiladelphia.com",
+    "email": "john.martinez@martinezlawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Outdated branding.",
+    "personalizedEmail": {
+      "subject": "John, quick growth idea",
+      "body": "Hi John,\n\nI came across Martinez & Associates Law and noticed outdated branding.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Martinez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:13:43.555Z"
+  },
+  {
+    "firstName": "Karen",
+    "company": "Miller & Associates Law",
+    "website": "https://www.millerlawlosangeles.com",
+    "email": "karen.miller@millerlawlosangeles.com",
+    "city": "Los Angeles",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Missed call issue.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Karen,\n\nI came across Miller & Associates Law and noticed missed call issue.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Miller & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:13:52.693Z"
+  },
+  {
+    "firstName": "Elizabeth",
+    "company": "Smith & Associates Law",
+    "website": "https://www.smithlawphiladelphia.com",
+    "email": "elizabeth.smith@smithlawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Smith & Associates Law",
+      "body": "Hi Elizabeth,\n\nI came across Smith & Associates Law and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Smith & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:14:02.545Z"
+  },
+  {
+    "firstName": "William",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawlosangeles.com",
+    "email": "william.rodriguez@rodriguezlawlosangeles.com",
+    "city": "Los Angeles",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak CTA buttons.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi William,\n\nI came across Rodriguez & Associates Law and noticed weak cta buttons.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:14:12.308Z"
+  },
+  {
+    "firstName": "Joseph",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawnewyork.com",
+    "email": "joseph.rodriguez@rodriguezlawnewyork.com",
+    "city": "New York",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Rodriguez & Associates Law",
+      "body": "Hi Joseph,\n\nI came across Rodriguez & Associates Law and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:14:22.279Z"
+  },
+  {
+    "firstName": "Richard",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawhouston.com",
+    "email": "richard.rodriguez@rodriguezlawhouston.com",
+    "city": "Houston",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Rodriguez & Associates Law",
+      "body": "Hi Richard,\n\nI came across Rodriguez & Associates Law and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:14:32.086Z"
+  },
+  {
+    "firstName": "David",
+    "company": "Brown & Associates Law",
+    "website": "https://www.brownlawdetroit.com",
+    "email": "david.brown@brownlawdetroit.com",
+    "city": "Detroit",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi David,\n\nI came across Brown & Associates Law and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Brown & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:14:41.458Z"
+  },
+  {
+    "firstName": "David",
+    "company": "Brown & Associates Law",
+    "website": "https://www.brownlawphiladelphia.com",
+    "email": "david.brown@brownlawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Family Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Contact form buried.",
+    "personalizedEmail": {
+      "subject": "David, quick growth idea",
+      "body": "Hi David,\n\nI came across Brown & Associates Law and noticed contact form buried.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Brown & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:14:51.257Z"
+  },
+  {
+    "firstName": "Elizabeth",
+    "company": "Jones & Associates Law",
+    "website": "https://www.joneslawcharlotte.com",
+    "email": "elizabeth.jones@joneslawcharlotte.com",
+    "city": "Charlotte",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No trust signals.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Elizabeth,\n\nI came across Jones & Associates Law and noticed no trust signals.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Jones & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:15:00.811Z"
+  },
+  {
+    "firstName": "Michael",
+    "company": "Smith & Associates Law",
+    "website": "https://www.smithlawhouston.com",
+    "email": "michael.smith@smithlawhouston.com",
+    "city": "Houston",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Missed call issue.",
+    "personalizedEmail": {
+      "subject": "Michael, quick growth idea",
+      "body": "Hi Michael,\n\nI came across Smith & Associates Law and noticed missed call issue.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Smith & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:15:10.029Z"
+  },
+  {
+    "firstName": "Richard",
+    "company": "Williams & Associates Law",
+    "website": "https://www.williamslawhouston.com",
+    "email": "richard.williams@williamslawhouston.com",
+    "city": "Houston",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Richard,\n\nI came across Williams & Associates Law and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Williams & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:15:19.326Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Smith & Associates Law",
+    "website": "https://www.smithlawcolumbus.com",
+    "email": "james.smith@smithlawcolumbus.com",
+    "city": "Columbus",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "James, quick growth idea",
+      "body": "Hi James,\n\nI came across Smith & Associates Law and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Smith & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:15:29.446Z"
+  },
+  {
+    "firstName": "Jessica",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawmiami.com",
+    "email": "jessica.rodriguez@rodriguezlawmiami.com",
+    "city": "Miami",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No chatbot for lead capture.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Rodriguez & Associates Law",
+      "body": "Hi Jessica,\n\nI came across Rodriguez & Associates Law and noticed no chatbot for lead capture.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:15:38.840Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Smith & Associates Law",
+    "website": "https://www.smithlawcolumbus.com",
+    "email": "james.smith@smithlawcolumbus.com",
+    "city": "Columbus",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "James, quick growth idea",
+      "body": "Hi James,\n\nI came across Smith & Associates Law and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Smith & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:15:47.942Z"
+  },
+  {
+    "firstName": "Joseph",
+    "company": "Davis & Associates Law",
+    "website": "https://www.davislawlosangeles.com",
+    "email": "joseph.davis@davislawlosangeles.com",
+    "city": "Los Angeles",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Website has no instant consultation booking.",
+    "personalizedEmail": {
+      "subject": "Joseph, quick growth idea",
+      "body": "Hi Joseph,\n\nI came across Davis & Associates Law and noticed website has no instant consultation booking.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Davis & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:15:57.281Z"
+  },
+  {
+    "firstName": "Richard",
+    "company": "Miller & Associates Law",
+    "website": "https://www.millerlawmiami.com",
+    "email": "richard.miller@millerlawmiami.com",
+    "city": "Miami",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Outdated branding.",
+    "personalizedEmail": {
+      "subject": "Richard, quick growth idea",
+      "body": "Hi Richard,\n\nI came across Miller & Associates Law and noticed outdated branding.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Miller & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:16:06.426Z"
+  },
+  {
+    "firstName": "Richard",
+    "company": "Williams & Associates Law",
+    "website": "https://www.williamslawchicago.com",
+    "email": "richard.williams@williamslawchicago.com",
+    "city": "Chicago",
+    "niche": "Family Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Missed call issue.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Richard,\n\nI came across Williams & Associates Law and noticed missed call issue.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Williams & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:16:15.650Z"
+  },
+  {
+    "firstName": "Linda",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawphiladelphia.com",
+    "email": "linda.rodriguez@rodriguezlawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Outdated branding.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Rodriguez & Associates Law website",
+      "body": "Hi Linda,\n\nI came across Rodriguez & Associates Law and noticed outdated branding.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:16:24.876Z"
+  },
+  {
+    "firstName": "Charles",
+    "company": "Brown & Associates Law",
+    "website": "https://www.brownlawlosangeles.com",
+    "email": "charles.brown@brownlawlosangeles.com",
+    "city": "Los Angeles",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "Charles, quick growth idea",
+      "body": "Hi Charles,\n\nI came across Brown & Associates Law and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Brown & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:16:33.936Z"
+  },
+  {
+    "firstName": "Jessica",
+    "company": "Miller & Associates Law",
+    "website": "https://www.millerlawmiami.com",
+    "email": "jessica.miller@millerlawmiami.com",
+    "city": "Miami",
+    "niche": "Family Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Outdated branding.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Miller & Associates Law website",
+      "body": "Hi Jessica,\n\nI came across Miller & Associates Law and noticed outdated branding.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Miller & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:16:43.889Z"
+  },
+  {
+    "firstName": "Richard",
+    "company": "Smith & Associates Law",
+    "website": "https://www.smithlawnewyork.com",
+    "email": "richard.smith@smithlawnewyork.com",
+    "city": "New York",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No case-result conversion funnel.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Smith & Associates Law website",
+      "body": "Hi Richard,\n\nI came across Smith & Associates Law and noticed no case-result conversion funnel.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Smith & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:16:53.823Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Miller & Associates Law",
+    "website": "https://www.millerlawdetroit.com",
+    "email": "james.miller@millerlawdetroit.com",
+    "city": "Detroit",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak Google reviews.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi James,\n\nI came across Miller & Associates Law and noticed weak google reviews.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Miller & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:17:03.034Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Davis & Associates Law",
+    "website": "https://www.davislawphiladelphia.com",
+    "email": "james.davis@davislawphiladelphia.com",
+    "city": "Philadelphia",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Outdated branding.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Davis & Associates Law",
+      "body": "Hi James,\n\nI came across Davis & Associates Law and noticed outdated branding.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Davis & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:17:13.005Z"
+  },
+  {
+    "firstName": "Patricia",
+    "company": "Jones & Associates Law",
+    "website": "https://www.joneslawhouston.com",
+    "email": "patricia.jones@joneslawhouston.com",
+    "city": "Houston",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No case-result conversion funnel.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Jones & Associates Law",
+      "body": "Hi Patricia,\n\nI came across Jones & Associates Law and noticed no case-result conversion funnel.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Jones & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:17:23.169Z"
+  },
+  {
+    "firstName": "Jessica",
+    "company": "Williams & Associates Law",
+    "website": "https://www.williamslawatlanta.com",
+    "email": "jessica.williams@williamslawatlanta.com",
+    "city": "Atlanta",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Weak CTA buttons.",
+    "personalizedEmail": {
+      "subject": "Jessica, quick growth idea",
+      "body": "Hi Jessica,\n\nI came across Williams & Associates Law and noticed weak cta buttons.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Williams & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:17:33.387Z"
+  },
+  {
+    "firstName": "Patricia",
+    "company": "Jones & Associates Law",
+    "website": "https://www.joneslawnewyork.com",
+    "email": "patricia.jones@joneslawnewyork.com",
+    "city": "New York",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No trust signals.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Jones & Associates Law",
+      "body": "Hi Patricia,\n\nI came across Jones & Associates Law and noticed no trust signals.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Jones & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:17:43.063Z"
+  },
+  {
+    "firstName": "Mary",
+    "company": "Rodriguez & Associates Law",
+    "website": "https://www.rodriguezlawcolumbus.com",
+    "email": "mary.rodriguez@rodriguezlawcolumbus.com",
+    "city": "Columbus",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Missed call issue.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Rodriguez & Associates Law",
+      "body": "Hi Mary,\n\nI came across Rodriguez & Associates Law and noticed missed call issue.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Rodriguez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:17:52.892Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Brown & Associates Law",
+    "website": "https://www.brownlawdetroit.com",
+    "email": "james.brown@brownlawdetroit.com",
+    "city": "Detroit",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Contact form buried.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi James,\n\nI came across Brown & Associates Law and noticed contact form buried.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Brown & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:18:02.737Z"
+  },
+  {
+    "firstName": "Joseph",
+    "company": "Brown & Associates Law",
+    "website": "https://www.brownlawatlanta.com",
+    "email": "joseph.brown@brownlawatlanta.com",
+    "city": "Atlanta",
+    "niche": "Estate Planning Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Website has no instant consultation booking.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Joseph,\n\nI came across Brown & Associates Law and noticed website has no instant consultation booking.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Brown & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:18:11.873Z"
+  },
+  {
+    "firstName": "Patricia",
+    "company": "Davis & Associates Law",
+    "website": "https://www.davislawlosangeles.com",
+    "email": "patricia.davis@davislawlosangeles.com",
+    "city": "Los Angeles",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Davis & Associates Law",
+      "body": "Hi Patricia,\n\nI came across Davis & Associates Law and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Davis & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:18:21.402Z"
+  },
+  {
+    "firstName": "Michael",
+    "company": "Davis & Associates Law",
+    "website": "https://www.davislawcharlotte.com",
+    "email": "michael.davis@davislawcharlotte.com",
+    "city": "Charlotte",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Website has no instant consultation booking.",
+    "personalizedEmail": {
+      "subject": "Michael, quick growth idea",
+      "body": "Hi Michael,\n\nI came across Davis & Associates Law and noticed website has no instant consultation booking.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Davis & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:18:31.386Z"
+  },
+  {
+    "firstName": "Elizabeth",
+    "company": "Johnson & Associates Law",
+    "website": "https://www.johnsonlawcharlotte.com",
+    "email": "elizabeth.johnson@johnsonlawcharlotte.com",
+    "city": "Charlotte",
+    "niche": "Employment Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Elizabeth,\n\nI came across Johnson & Associates Law and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Johnson & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:18:41.202Z"
+  },
+  {
+    "firstName": "Sarah",
+    "company": "Garcia & Associates Law",
+    "website": "https://www.garcialawatlanta.com",
+    "email": "sarah.garcia@garcialawatlanta.com",
+    "city": "Atlanta",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No lead follow-up system.",
+    "personalizedEmail": {
+      "subject": "Sarah, quick growth idea",
+      "body": "Hi Sarah,\n\nI came across Garcia & Associates Law and noticed no lead follow-up system.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Garcia & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:18:50.424Z"
+  },
+  {
+    "firstName": "David",
+    "company": "Jones & Associates Law",
+    "website": "https://www.joneslawnewyork.com",
+    "email": "david.jones@joneslawnewyork.com",
+    "city": "New York",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Missed call issue.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Jones & Associates Law",
+      "body": "Hi David,\n\nI came across Jones & Associates Law and noticed missed call issue.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Jones & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:18:57.357Z"
+  },
+  {
+    "firstName": "Jessica",
+    "company": "Williams & Associates Law",
+    "website": "https://www.williamslawhouston.com",
+    "email": "jessica.williams@williamslawhouston.com",
+    "city": "Houston",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Outdated branding.",
+    "personalizedEmail": {
+      "subject": "Jessica, quick growth idea",
+      "body": "Hi Jessica,\n\nI came across Williams & Associates Law and noticed outdated branding.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Williams & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:19:07.306Z"
+  },
+  {
+    "firstName": "John",
+    "company": "Smith & Associates Law",
+    "website": "https://www.smithlawchicago.com",
+    "email": "john.smith@smithlawchicago.com",
+    "city": "Chicago",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Smith & Associates Law",
+      "body": "Hi John,\n\nI came across Smith & Associates Law and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Smith & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:19:16.542Z"
+  },
+  {
+    "firstName": "David",
+    "company": "Martinez & Associates Law",
+    "website": "https://www.martinezlawlosangeles.com",
+    "email": "david.martinez@martinezlawlosangeles.com",
+    "city": "Los Angeles",
+    "niche": "Family Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Poor speed score.",
+    "personalizedEmail": {
+      "subject": "Noticed something on Martinez & Associates Law website",
+      "body": "Hi David,\n\nI came across Martinez & Associates Law and noticed poor speed score.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Martinez & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:19:26.419Z"
+  },
+  {
+    "firstName": "James",
+    "company": "Miller & Associates Law",
+    "website": "https://www.millerlawmiami.com",
+    "email": "james.miller@millerlawmiami.com",
+    "city": "Miami",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "No chatbot for lead capture.",
+    "personalizedEmail": {
+      "subject": "Quick idea for Miller & Associates Law",
+      "body": "Hi James,\n\nI came across Miller & Associates Law and noticed no chatbot for lead capture.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Miller & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:19:36.209Z"
+  },
+  {
+    "firstName": "Joseph",
+    "company": "Brown & Associates Law",
+    "website": "https://www.brownlawhouston.com",
+    "email": "joseph.brown@brownlawhouston.com",
+    "city": "Houston",
+    "niche": "Criminal Defense Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Website has no instant consultation booking.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi Joseph,\n\nI came across Brown & Associates Law and noticed website has no instant consultation booking.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Brown & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:19:45.963Z"
+  },
+  {
+    "firstName": "William",
+    "company": "Johnson & Associates Law",
+    "website": "https://www.johnsonlawmiami.com",
+    "email": "william.johnson@johnsonlawmiami.com",
+    "city": "Miami",
+    "niche": "Personal Injury Law Firm",
+    "verified": true,
+    "status": "sent",
+    "painPoint": "Slow mobile website.",
+    "personalizedEmail": {
+      "subject": "Helping law firms convert more consultations",
+      "body": "Hi William,\n\nI came across Johnson & Associates Law and noticed slow mobile website.\n\nMany firms lose qualified consultations because potential clients don’t get immediate responses or clear next steps.\n\nI help law firms in the US implement AI-powered systems that improve lead capture, automate follow-up, and increase booked consultations.\n\nBased on what I saw, I believe Johnson & Associates Law could improve conversions quickly.\n\nWould you be open to a short audit video showing exactly what I’d fix?\n\nWebsite: https://hanzala.online\n\nBest regards,\nHanzala"
+    },
+    "sentAt": "2026-04-17T07:19:56.126Z"
+  }
+]

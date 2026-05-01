@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+db/leads.json
+db/activity.log
+.vercel
+client/node_modules
+client/dist
