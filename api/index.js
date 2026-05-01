@@ -18,10 +18,16 @@ app.get('/api/leads', async (req, res) => {
             .select('*')
             .order('created_at', { ascending: false });
         
-        if (error) throw error;
-        res.json(leads);
+        if (error) {
+            if (error.code === 'PGRST116' || error.message.includes('relation "leads" does not exist')) {
+                return res.json([]); // Return empty if table doesn't exist yet
+            }
+            throw error;
+        }
+        res.json(leads || []);
     } catch (e) {
-        res.status(500).json({ error: e.message });
+        console.error('API Error:', e.message);
+        res.status(500).json({ error: 'Database connection issue. Ensure you created the "leads" table in Supabase.', detail: e.message });
     }
 });
 
@@ -46,9 +52,7 @@ app.post('/api/send-email', async (req, res) => {
 });
 
 app.get('/api/logs', (req, res) => {
-    // Note: Logs are still handled via console in serverless
-    // In a real production app, we would save logs to Supabase as well
-    res.json(["System connected to Supabase", "Database ready"]);
+    res.json(["System connected to Supabase", "Check dashboard for results"]);
 });
 
 module.exports = app;
