@@ -51,6 +51,22 @@ app.post('/api/send-email', async (req, res) => {
     }
 });
 
+app.get('/api/leads/export', async (req, res) => {
+    try {
+        const { data: leads, error } = await supabase.from('leads').select('*');
+        if (error) throw error;
+        
+        const header = 'Name,Company,Email,Status,Validation\n';
+        const rows = leads.map(l => `"${l.name}","${l.company}","${l.email}","${l.status}","${l.validation_status}"`).join('\n');
+        
+        res.setHeader('Content-Type', 'text/csv');
+        res.setHeader('Content-Disposition', 'attachment; filename=leads.csv');
+        res.status(200).send(header + rows);
+    } catch (e) {
+        res.status(500).json({ error: e.message });
+    }
+});
+
 app.get('/api/logs', (req, res) => {
     res.json(["System connected to Supabase", "Check dashboard for results"]);
 });

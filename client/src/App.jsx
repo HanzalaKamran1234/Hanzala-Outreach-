@@ -3,304 +3,183 @@ import axios from 'axios';
 import { 
   Users, 
   Mail, 
-  Settings, 
-  LayoutDashboard, 
   Search, 
   Send, 
-  FileText, 
   CheckCircle, 
-  XCircle, 
-  RefreshCcw,
+  AlertCircle, 
+  XCircle,
   Download,
-  Terminal
+  ShieldCheck,
+  Settings
 } from 'lucide-react';
 
 const API_URL = '/api';
 
 function App() {
-  const [activeTab, setActiveTab] = useState('leads');
   const [leads, setLeads] = useState([]);
-  const [logs, setLogs] = useState([]);
   const [isScraping, setIsScraping] = useState(false);
-  
-  const [filters, setFilters] = useState({
-    country: 'USA',
-    city: 'Miami',
-    niche: 'Real Estate',
-    role: 'Founder',
-    targetCount: 10
-  });
-
-  const [smtpConfig, setSmtpConfig] = useState({
-    email: '',
-    password: '',
-    senderName: ''
-  });
-
+  const [smtpConfig, setSmtpConfig] = useState({ email: '', password: '', senderName: '' });
+  const [filters, setFilters] = useState({ country: 'USA', city: '', niche: 'SaaS', role: 'Founder', targetCount: 5 });
   const [template, setTemplate] = useState({
-    subject: 'Interested in working with {{company}}',
-    body: 'Hi {{name}},\n\nI saw {{company}} and was impressed by your work. I wanted to reach out and see if you need any help with digital outreach.\n\nBest,\nYour Name'
+    subject: 'Collaboration with {{company}}',
+    body: 'Hi {{name}},\n\nI saw {{company}} and love what you are building. I would love to discuss a potential collaboration.\n\nBest,\nYour Name'
   });
 
-  useEffect(() => {
-    fetchLeads();
-    const interval = setInterval(fetchLogs, 3000);
-    return () => clearInterval(interval);
-  }, []);
+  useEffect(() => { fetchLeads(); }, []);
 
   const fetchLeads = async () => {
     try {
       const res = await axios.get(`${API_URL}/leads`);
       setLeads(res.data);
-    } catch (err) {
-      console.error('Failed to fetch leads');
-    }
-  };
-
-  const fetchLogs = async () => {
-    try {
-      const res = await axios.get(`${API_URL}/logs`);
-      setLogs(res.data);
-    } catch (err) {
-      console.error('Failed to fetch logs');
-    }
+    } catch (err) { console.error('Error fetching leads'); }
   };
 
   const startScraping = async () => {
     setIsScraping(true);
     try {
       await axios.post(`${API_URL}/scrape`, filters);
-      setTimeout(fetchLeads, 2000);
-    } catch (err) {
-      alert('Scraping failed to start');
-    } finally {
-      setIsScraping(false);
-    }
+      setTimeout(fetchLeads, 3000);
+    } catch (err) { alert('Failed to start scraping'); }
+    finally { setIsScraping(false); }
   };
 
   const sendEmail = async (leadId = null) => {
-    if (!smtpConfig.email || !smtpConfig.password) {
-      alert('Please configure your SMTP settings first');
-      setActiveTab('settings');
-      return;
-    }
-
+    if (!smtpConfig.email || !smtpConfig.password) return alert('Configure SMTP in settings first');
     try {
-      await axios.post(`${API_URL}/send-email`, {
-        smtpConfig,
-        template,
-        leadId
-      });
-      alert(leadId ? 'Email sending triggered' : 'Bulk outreach started');
+      await axios.post(`${API_URL}/send-email`, { smtpConfig, template, leadId });
+      alert(leadId ? 'Email sent!' : 'Bulk send started!');
       setTimeout(fetchLeads, 2000);
-    } catch (err) {
-      alert('Failed to send email');
-    }
+    } catch (err) { alert('Error sending email'); }
   };
 
-  const exportLeads = () => {
-    window.open(`${API_URL}/leads/export`);
-  };
+  const exportLeads = () => { window.open(`${API_URL}/leads/export`); };
 
   return (
-    <div className="app-container">
-      {/* Sidebar */}
-      <aside className="sidebar">
-        <div>
-          <div className="logo">HANZALA OUTREACH</div>
-          <p style={{color: 'var(--text-muted)', fontSize: '12px'}}>Elite Lead Gen Engine</p>
+    <div className="app-container" style={{background: '#0f172a', minHeight: '100vh', padding: '20px'}}>
+      <header style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px', padding: '0 10px'}}>
+        <div className="logo" style={{fontSize: '24px', fontWeight: 'bold', color: '#6366f1'}}>HANZALA OUTREACH</div>
+        <div style={{display: 'flex', gap: '10px'}}>
+          <button className="secondary" onClick={exportLeads}><Download size={18} /> Export</button>
+          <button className="secondary" onClick={() => {
+            const email = prompt('Enter Gmail:', smtpConfig.email);
+            const pass = prompt('Enter App Password:', smtpConfig.password);
+            if(email && pass) setSmtpConfig({...smtpConfig, email, password: pass});
+          }}><Settings size={18} /> SMTP Setup</button>
         </div>
-        
-        <nav style={{display: 'flex', flexDirection: 'column', gap: '8px'}}>
-          <div className={`nav-item ${activeTab === 'leads' ? 'active' : ''}`} onClick={() => setActiveTab('leads')}>
-            <Users size={20} /> Leads Table
-          </div>
-          <div className={`nav-item ${activeTab === 'scrape' ? 'active' : ''}`} onClick={() => setActiveTab('scrape')}>
-            <Search size={20} /> Scraper Engine
-          </div>
-          <div className={`nav-item ${activeTab === 'template' ? 'active' : ''}`} onClick={() => setActiveTab('template')}>
-            <FileText size={20} /> Email Template
-          </div>
-          <div className={`nav-item ${activeTab === 'settings' ? 'active' : ''}`} onClick={() => setActiveTab('settings')}>
-            <Settings size={20} /> SMTP Config
-          </div>
-        </nav>
+      </header>
 
-        <div style={{marginTop: 'auto'}}>
-          <div className="card" style={{padding: '12px', background: 'rgba(99, 102, 241, 0.05)'}}>
-            <p style={{fontSize: '12px', color: 'var(--text-muted)'}}>System Status</p>
-            <div style={{display: 'flex', alignItems: 'center', gap: '8px', marginTop: '8px'}}>
-              <div style={{width: '8px', height: '8px', background: 'var(--accent)', borderRadius: '50%'}}></div>
-              <span style={{fontSize: '14px'}}>Connected</span>
+      <div className="main-grid" style={{display: 'grid', gridTemplateColumns: '350px 1fr', gap: '20px'}}>
+        {/* Section 1: Lead Input Panel */}
+        <div className="card glass">
+          <h3 className="card-title"><Search size={20} /> 1. Find Leads</h3>
+          <div style={{display: 'flex', flexDirection: 'column', gap: '15px'}}>
+            <div>
+              <label>Niche / Industry</label>
+              <input value={filters.niche} onChange={e => setFilters({...filters, niche: e.target.value})} placeholder="e.g. Real Estate" />
             </div>
-          </div>
-        </div>
-      </aside>
-
-      {/* Main Content */}
-      <main className="main-content">
-        <header style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '32px'}}>
-          <div>
-            <h1 style={{fontSize: '28px'}}>{activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}</h1>
-            <p style={{color: 'var(--text-muted)'}}>Manage your outreach campaign effectively</p>
-          </div>
-          <div style={{display: 'flex', gap: '12px'}}>
-            <button className="secondary" onClick={fetchLeads}>
-              <RefreshCcw size={18} /> Refresh
-            </button>
-            <button className="primary" onClick={exportLeads}>
-              <Download size={18} /> Export CSV
+            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px'}}>
+              <div>
+                <label>Country</label>
+                <input value={filters.country} onChange={e => setFilters({...filters, country: e.target.value})} />
+              </div>
+              <div>
+                <label>City</label>
+                <input value={filters.city} onChange={e => setFilters({...filters, city: e.target.value})} />
+              </div>
+            </div>
+            <div>
+              <label>Target Role</label>
+              <select value={filters.role} onChange={e => setFilters({...filters, role: e.target.value})}>
+                <option>Founder</option>
+                <option>Owner</option>
+                <option>Manager</option>
+                <option>Developer</option>
+              </select>
+            </div>
+            <button className="primary" onClick={startScraping} disabled={isScraping} style={{width: '100%', justifyContent: 'center'}}>
+              {isScraping ? 'Finding Leads...' : 'Find Leads'}
             </button>
           </div>
-        </header>
+        </div>
 
-        {activeTab === 'leads' && (
-          <div className="card">
-            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px'}}>
-              <h3 className="card-title"><LayoutDashboard size={20} /> All Scraped Leads</h3>
-              <button className="primary" onClick={() => sendEmail()}>
-                <Send size={18} /> Send to All
-              </button>
-            </div>
-            <table>
-              <thead>
-                <tr>
-                  <th>Name / Role</th>
-                  <th>Company</th>
-                  <th>Email</th>
-                  <th>Website</th>
-                  <th>Status</th>
-                  <th>Actions</th>
-                </tr>
-              </thead>
-              <tbody>
-                {leads.map(lead => (
-                  <tr key={lead.id}>
-                    <td>{lead.name}</td>
-                    <td>{lead.company}</td>
-                    <td>{lead.email}</td>
-                    <td>
-                      <a href={lead.website} target="_blank" rel="noreferrer" style={{color: 'var(--primary)', textDecoration: 'none'}}>
-                        {lead.website !== 'None' ? 'Visit Site' : 'No Site'}
-                      </a>
-                    </td>
-                    <td>
-                      <span className={`status-pill status-${lead.status.toLowerCase().replace(' ', '-')}`}>
-                        {lead.status}
-                      </span>
-                    </td>
-                    <td>
-                      <button className="secondary" style={{padding: '6px 12px', fontSize: '12px'}} onClick={() => sendEmail(lead.id)}>
-                        Send
-                      </button>
-                    </td>
+        <div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>
+          {/* Section 2: Leads Table */}
+          <div className="card glass" style={{flex: 1}}>
+            <h3 className="card-title" style={{justifyContent: 'space-between'}}>
+              <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}><Users size={20} /> 2. Leads Table</div>
+              <span style={{fontSize: '12px', fontWeight: 'normal', color: '#94a3b8'}}>{leads.length} leads found</span>
+            </h3>
+            <div style={{maxHeight: '400px', overflowY: 'auto'}}>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Action</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {leads.map(lead => (
+                    <tr key={lead.id}>
+                      <td>{lead.name}</td>
+                      <td>{lead.company}</td>
+                      <td>
+                        <div style={{display: 'flex', alignItems: 'center', gap: '5px'}}>
+                          {lead.email}
+                          <span style={{
+                            fontSize: '10px', 
+                            padding: '2px 6px', 
+                            borderRadius: '4px', 
+                            background: lead.validation_status === 'Valid' ? '#065f46' : '#92400e',
+                            color: 'white'
+                          }}>
+                            {lead.validation_status}
+                          </span>
+                        </div>
+                      </td>
+                      <td>
+                        <span className={`status-pill status-${lead.status.toLowerCase().replace(' ', '-')}`}>
+                          {lead.status}
+                        </span>
+                      </td>
+                      <td>
+                        <button className="secondary" style={{padding: '5px 10px'}} onClick={() => sendEmail(lead.id)}>Send</button>
+                      </td>
+                    </tr>
+                  ))}
+                  {leads.length === 0 && <tr><td colSpan="5" style={{textAlign: 'center', padding: '40px', color: '#64748b'}}>No leads found yet. Start by finding leads on the left.</td></tr>}
+                </tbody>
+              </table>
+            </div>
           </div>
-        )}
 
-        {activeTab === 'scrape' && (
-          <div className="grid-2">
-            <div className="card">
-              <h3 className="card-title"><Search size={20} /> Lead Generation Filters</h3>
-              <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
-                <div>
-                  <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>Industry / Niche</label>
-                  <input value={filters.niche} onChange={e => setFilters({...filters, niche: e.target.value})} placeholder="e.g. SaaS, Dental, Law" />
+          {/* Section 3: Email Panel */}
+          <div className="card glass">
+            <h3 className="card-title" style={{justifyContent: 'space-between'}}>
+              <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}><Mail size={20} /> 3. Email Template</div>
+              <button className="primary" onClick={() => sendEmail()}><Send size={16} /> Send to All Valid</button>
+            </h3>
+            <div style={{display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '20px'}}>
+              <div>
+                <label>Subject</label>
+                <input value={template.subject} onChange={e => setTemplate({...template, subject: e.target.value})} style={{marginBottom: '15px'}} />
+                <div style={{fontSize: '12px', color: '#94a3b8', background: '#1e293b', padding: '10px', borderRadius: '8px'}}>
+                  <b>Placeholders:</b><br/>
+                  &#123;&#123;name&#125;&#125;<br/>
+                  &#123;&#123;company&#125;&#125;
                 </div>
-                <div className="grid-2">
-                  <div>
-                    <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>Country</label>
-                    <input value={filters.country} onChange={e => setFilters({...filters, country: e.target.value})} />
-                  </div>
-                  <div>
-                    <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>City</label>
-                    <input value={filters.city} onChange={e => setFilters({...filters, city: e.target.value})} />
-                  </div>
-                </div>
-                <div>
-                  <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>Target Role</label>
-                  <select value={filters.role} onChange={e => setFilters({...filters, role: e.target.value})}>
-                    <option>Founder</option>
-                    <option>Decision Maker</option>
-                    <option>Developer</option>
-                    <option>Marketing Manager</option>
-                  </select>
-                </div>
-                <div>
-                  <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>Number of Leads</label>
-                  <input type="number" value={filters.targetCount} onChange={e => setFilters({...filters, targetCount: parseInt(e.target.value)})} />
-                </div>
-                <button className="primary" style={{width: '100%', justifyContent: 'center'}} onClick={startScraping} disabled={isScraping}>
-                  {isScraping ? 'Scraping in Progress...' : 'Start Scraping'}
-                </button>
               </div>
-            </div>
-            
-            <div className="card">
-              <h3 className="card-title"><Terminal size={20} /> Live Activity Logs</h3>
-              <div className="logs-container">
-                {logs.map((log, i) => (
-                  <div key={i} style={{marginBottom: '4px'}}>{log}</div>
-                ))}
-                {logs.length === 0 && <div style={{color: '#666'}}>Waiting for activity...</div>}
-              </div>
+              <textarea 
+                value={template.body} 
+                onChange={e => setTemplate({...template, body: e.target.value})}
+                style={{minHeight: '150px', background: '#1e293b', border: 'none', color: 'white'}}
+              />
             </div>
           </div>
-        )}
-
-        {activeTab === 'template' && (
-          <div className="card">
-            <h3 className="card-title"><Mail size={20} /> Email Outreach Template</h3>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
-              <div>
-                <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>Subject Line</label>
-                <input value={template.subject} onChange={e => setTemplate({...template, subject: e.target.value})} />
-              </div>
-              <div>
-                <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>Email Body</label>
-                <textarea 
-                  rows={10} 
-                  value={template.body} 
-                  onChange={e => setTemplate({...template, body: e.target.value})}
-                  style={{resize: 'none'}}
-                />
-                <p style={{fontSize: '12px', color: 'var(--text-muted)', marginTop: '8px'}}>
-                  Use placeholders: <b>&#123;&#123;name&#125;&#125;</b>, <b>&#123;&#123;company&#125;&#125;</b>
-                </p>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {activeTab === 'settings' && (
-          <div className="card" style={{maxWidth: '600px'}}>
-            <h3 className="card-title"><Settings size={20} /> SMTP Configuration</h3>
-            <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
-              <div style={{background: 'rgba(239, 68, 68, 0.05)', border: '1px solid var(--danger)', padding: '12px', borderRadius: '8px', color: '#fca5a5', fontSize: '13px'}}>
-                <b>Note:</b> Use a Gmail App Password for secure sending.
-              </div>
-              <div>
-                <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>Sender Name</label>
-                <input value={smtpConfig.senderName} onChange={e => setSmtpConfig({...smtpConfig, senderName: e.target.value})} placeholder="e.g. John Doe" />
-              </div>
-              <div>
-                <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>Gmail Address</label>
-                <input value={smtpConfig.email} onChange={e => setSmtpConfig({...smtpConfig, email: e.target.value})} placeholder="yourname@gmail.com" />
-              </div>
-              <div>
-                <label style={{display: 'block', marginBottom: '8px', fontSize: '14px'}}>App Password</label>
-                <input type="password" value={smtpConfig.password} onChange={e => setSmtpConfig({...smtpConfig, password: e.target.value})} placeholder="xxxx xxxx xxxx xxxx" />
-              </div>
-              <button className="primary" onClick={() => alert('Configuration Saved')}>
-                Save Settings
-              </button>
-            </div>
-          </div>
-        )}
-      </main>
+        </div>
+      </div>
     </div>
   );
 }
