@@ -5,12 +5,15 @@ import {
   Mail, 
   Search, 
   Send, 
-  CheckCircle, 
-  AlertCircle, 
-  XCircle,
-  Download,
   ShieldCheck,
-  Settings
+  Settings,
+  LayoutDashboard,
+  CheckCircle,
+  XCircle,
+  Clock,
+  User,
+  ExternalLink,
+  ChevronRight
 } from 'lucide-react';
 
 const API_URL = '/api';
@@ -18,8 +21,9 @@ const API_URL = '/api';
 function App() {
   const [leads, setLeads] = useState([]);
   const [isScraping, setIsScraping] = useState(false);
+  const [activeTab, setActiveTab] = useState('dashboard');
   const [smtpConfig, setSmtpConfig] = useState({ email: '', password: '', senderName: '' });
-  const [filters, setFilters] = useState({ country: 'USA', city: '', niche: 'SaaS', role: 'Founder', targetCount: 5 });
+  const [filters, setFilters] = useState({ country: 'USA', city: '', niche: 'SaaS', role: 'Founder' });
   const [template, setTemplate] = useState({
     subject: 'Collaboration with {{company}}',
     body: 'Hi {{name}},\n\nI saw {{company}} and love what you are building. I would love to discuss a potential collaboration.\n\nBest,\nYour Name'
@@ -52,70 +56,159 @@ function App() {
     } catch (err) { alert('Error sending email'); }
   };
 
-  const exportLeads = () => { window.open(`${API_URL}/leads/export`); };
-
   return (
-    <div className="app-container" style={{background: '#0f172a', minHeight: '100vh', padding: '20px'}}>
-      <header style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '30px', padding: '0 10px'}}>
-        <div className="logo" style={{fontSize: '24px', fontWeight: 'bold', color: '#6366f1'}}>HANZALA OUTREACH</div>
-        <div style={{display: 'flex', gap: '10px'}}>
-          <button className="secondary" onClick={exportLeads}><Download size={18} /> Export</button>
-          <button className="secondary" onClick={() => {
-            const email = prompt('Enter Gmail:', smtpConfig.email);
-            const pass = prompt('Enter App Password:', smtpConfig.password);
-            if(email && pass) setSmtpConfig({...smtpConfig, email, password: pass});
-          }}><Settings size={18} /> SMTP Setup</button>
+    <div className="app-layout">
+      {/* Sidebar */}
+      <aside className="sidebar">
+        <div className="logo">
+          <ShieldCheck size={24} />
+          Hanzala Outreach
         </div>
-      </header>
-
-      <div className="main-grid" style={{display: 'grid', gridTemplateColumns: '350px 1fr', gap: '20px'}}>
-        {/* Section 1: Lead Input Panel */}
-        <div className="card glass">
-          <h3 className="card-title"><Search size={20} /> 1. Find Leads</h3>
-          <div style={{display: 'flex', flexDirection: 'column', gap: '15px'}}>
-            <div>
-              <label>Niche / Industry</label>
-              <input value={filters.niche} onChange={e => setFilters({...filters, niche: e.target.value})} placeholder="e.g. Real Estate" />
-            </div>
-            <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px'}}>
-              <div>
-                <label>Country</label>
-                <input value={filters.country} onChange={e => setFilters({...filters, country: e.target.value})} />
-              </div>
-              <div>
-                <label>City</label>
-                <input value={filters.city} onChange={e => setFilters({...filters, city: e.target.value})} />
-              </div>
-            </div>
-            <div>
-              <label>Target Role</label>
-              <select value={filters.role} onChange={e => setFilters({...filters, role: e.target.value})}>
-                <option>Founder</option>
-                <option>Owner</option>
-                <option>Manager</option>
-                <option>Developer</option>
-              </select>
-            </div>
-            <button className="primary" onClick={startScraping} disabled={isScraping} style={{width: '100%', justifyContent: 'center'}}>
-              {isScraping ? 'Finding Leads...' : 'Find Leads'}
-            </button>
+        <nav>
+          <div className={`nav-item ${activeTab === 'dashboard' ? 'active' : ''}`} onClick={() => setActiveTab('dashboard')}>
+            <LayoutDashboard size={18} /> Dashboard
           </div>
-        </div>
+          <div className={`nav-item ${activeTab === 'leads' ? 'active' : ''}`} onClick={() => setActiveTab('leads')}>
+            <Users size={18} /> Leads
+          </div>
+          <div className={`nav-item ${activeTab === 'settings' ? 'active' : ''}`} onClick={() => setActiveTab('settings')}>
+            <Settings size={18} /> Settings
+          </div>
+        </nav>
+      </aside>
 
-        <div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>
-          {/* Section 2: Leads Table */}
-          <div className="card glass" style={{flex: 1}}>
-            <h3 className="card-title" style={{justifyContent: 'space-between'}}>
-              <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}><Users size={20} /> 2. Leads Table</div>
-              <span style={{fontSize: '12px', fontWeight: 'normal', color: '#94a3b8'}}>{leads.length} leads found</span>
-            </h3>
-            <div style={{maxHeight: '400px', overflowY: 'auto'}}>
+      {/* Main Container */}
+      <div style={{flex: 1, display: 'flex', flexDirection: 'column'}}>
+        {/* Header */}
+        <header className="header">
+          <div className="header-title">{activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}</div>
+          <div style={{display: 'flex', alignItems: 'center', gap: '16px'}}>
+            <div className="badge badge-green">System Live</div>
+            <div style={{width: '32px', height: '32px', background: '#F3F4F6', borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+              <User size={18} color="#6B7280" />
+            </div>
+          </div>
+        </header>
+
+        {/* Content Area */}
+        <main className="main-content">
+          {activeTab === 'dashboard' && (
+            <>
+              {/* 1. Lead Generation Panel */}
+              <div className="card">
+                <h3 className="card-title"><Search size={18} color="#2563EB" /> Find Targeted Leads</h3>
+                <div className="grid">
+                  <div>
+                    <label>Niche / Industry</label>
+                    <input value={filters.niche} onChange={e => setFilters({...filters, niche: e.target.value})} placeholder="e.g. Restaurants" />
+                  </div>
+                  <div>
+                    <label>Role</label>
+                    <input value={filters.role} onChange={e => setFilters({...filters, role: e.target.value})} placeholder="e.g. Founder" />
+                  </div>
+                  <div>
+                    <label>Country</label>
+                    <input value={filters.country} onChange={e => setFilters({...filters, country: e.target.value})} />
+                  </div>
+                  <div>
+                    <label>City (Optional)</label>
+                    <input value={filters.city} onChange={e => setFilters({...filters, city: e.target.value})} placeholder="e.g. New York" />
+                  </div>
+                </div>
+                <div style={{marginTop: '20px', display: 'flex', justifyContent: 'flex-end'}}>
+                  <button className="primary" onClick={startScraping} disabled={isScraping}>
+                    {isScraping ? 'Searching...' : 'Find Leads'} <ChevronRight size={16} />
+                  </button>
+                </div>
+              </div>
+
+              {/* 2. Leads Table & 3. Email Composer */}
+              <div style={{display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: '24px'}}>
+                <div>
+                  <div className="card" style={{minHeight: '400px'}}>
+                    <h3 className="card-title"><Users size={18} color="#2563EB" /> Recent Leads</h3>
+                    <table style={{marginTop: '10px'}}>
+                      <thead>
+                        <tr>
+                          <th>Name / Role</th>
+                          <th>Company</th>
+                          <th>Status</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {leads.slice(0, 5).map(lead => (
+                          <tr key={lead.id}>
+                            <td>
+                              <div style={{fontWeight: 500}}>{lead.name}</div>
+                              <div style={{fontSize: '12px', color: '#6B7280'}}>{lead.email}</div>
+                            </td>
+                            <td>{lead.company}</td>
+                            <td>
+                              <span className={`badge ${lead.status === 'Sent' ? 'badge-green' : 'badge-grey'}`}>
+                                {lead.status}
+                              </span>
+                            </td>
+                            <td>
+                              <button className="secondary" style={{padding: '6px 10px'}} onClick={() => sendEmail(lead.id)}>Send</button>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+
+                <div style={{display: 'flex', flexDirection: 'column', gap: '24px'}}>
+                  {/* Email Composer */}
+                  <div className="card">
+                    <h3 className="card-title"><Mail size={18} color="#2563EB" /> Email Composer</h3>
+                    <div>
+                      <label>Subject Line</label>
+                      <input value={template.subject} onChange={e => setTemplate({...template, subject: e.target.value})} style={{marginBottom: '16px'}} />
+                      <label>Message Body</label>
+                      <textarea 
+                        value={template.body} 
+                        onChange={e => setTemplate({...template, body: e.target.value})}
+                        style={{minHeight: '180px', marginBottom: '16px'}}
+                      />
+                      <div style={{display: 'flex', gap: '10px'}}>
+                        <button className="primary" style={{flex: 1}} onClick={() => sendEmail()}>Send to All</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* 5. Activity Logs */}
+              <div className="card">
+                <h3 className="card-title"><Clock size={18} color="#2563EB" /> Activity Feed</h3>
+                <div className="logs-list">
+                  <div className="log-item">
+                    <span>System initialized and connected to Supabase</span>
+                    <span className="log-time">Just now</span>
+                  </div>
+                  {leads.filter(l => l.status === 'Sent').slice(0, 3).map(l => (
+                    <div className="log-item" key={l.id}>
+                      <span>Email sent to {l.email}</span>
+                      <span className="log-time">{new Date(l.sent_at).toLocaleTimeString()}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </>
+          )}
+
+          {activeTab === 'leads' && (
+            <div className="card">
+              <h3 className="card-title">All Leads ({leads.length})</h3>
               <table>
                 <thead>
                   <tr>
                     <th>Name</th>
                     <th>Company</th>
                     <th>Email</th>
+                    <th>Validation</th>
                     <th>Status</th>
                     <th>Action</th>
                   </tr>
@@ -125,60 +218,47 @@ function App() {
                     <tr key={lead.id}>
                       <td>{lead.name}</td>
                       <td>{lead.company}</td>
+                      <td>{lead.email}</td>
                       <td>
-                        <div style={{display: 'flex', alignItems: 'center', gap: '5px'}}>
-                          {lead.email}
-                          <span style={{
-                            fontSize: '10px', 
-                            padding: '2px 6px', 
-                            borderRadius: '4px', 
-                            background: lead.validation_status === 'Valid' ? '#065f46' : '#92400e',
-                            color: 'white'
-                          }}>
-                            {lead.validation_status}
-                          </span>
-                        </div>
+                        <span className={`badge ${lead.validation_status === 'Valid' ? 'badge-green' : 'badge-yellow'}`}>
+                          {lead.validation_status}
+                        </span>
                       </td>
                       <td>
-                        <span className={`status-pill status-${lead.status.toLowerCase().replace(' ', '-')}`}>
+                        <span className={`badge ${lead.status === 'Sent' ? 'badge-green' : 'badge-grey'}`}>
                           {lead.status}
                         </span>
                       </td>
                       <td>
-                        <button className="secondary" style={{padding: '5px 10px'}} onClick={() => sendEmail(lead.id)}>Send</button>
+                        <button className="secondary" style={{padding: '6px 10px'}} onClick={() => sendEmail(lead.id)}>Send</button>
                       </td>
                     </tr>
                   ))}
-                  {leads.length === 0 && <tr><td colSpan="5" style={{textAlign: 'center', padding: '40px', color: '#64748b'}}>No leads found yet. Start by finding leads on the left.</td></tr>}
                 </tbody>
               </table>
             </div>
-          </div>
+          )}
 
-          {/* Section 3: Email Panel */}
-          <div className="card glass">
-            <h3 className="card-title" style={{justifyContent: 'space-between'}}>
-              <div style={{display: 'flex', alignItems: 'center', gap: '10px'}}><Mail size={20} /> 3. Email Template</div>
-              <button className="primary" onClick={() => sendEmail()}><Send size={16} /> Send to All Valid</button>
-            </h3>
-            <div style={{display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '20px'}}>
-              <div>
-                <label>Subject</label>
-                <input value={template.subject} onChange={e => setTemplate({...template, subject: e.target.value})} style={{marginBottom: '15px'}} />
-                <div style={{fontSize: '12px', color: '#94a3b8', background: '#1e293b', padding: '10px', borderRadius: '8px'}}>
-                  <b>Placeholders:</b><br/>
-                  &#123;&#123;name&#125;&#125;<br/>
-                  &#123;&#123;company&#125;&#125;
+          {activeTab === 'settings' && (
+            <div className="card" style={{maxWidth: '600px'}}>
+              <h3 className="card-title"><Settings size={18} color="#2563EB" /> SMTP Configuration</h3>
+              <p style={{fontSize: '14px', color: '#6B7280', marginBottom: '20px'}}>Configure your Gmail App Password to enable outreach.</p>
+              <div style={{display: 'flex', flexDirection: 'column', gap: '20px'}}>
+                <div>
+                  <label>Gmail Address</label>
+                  <input value={smtpConfig.email} onChange={e => setSmtpConfig({...smtpConfig, email: e.target.value})} placeholder="yourname@gmail.com" />
+                </div>
+                <div>
+                  <label>App Password</label>
+                  <input type="password" value={smtpConfig.password} onChange={e => setSmtpConfig({...smtpConfig, password: e.target.value})} placeholder="xxxx xxxx xxxx xxxx" />
+                </div>
+                <div>
+                  <button className="primary" onClick={() => alert('Settings Saved!')}>Save Configuration</button>
                 </div>
               </div>
-              <textarea 
-                value={template.body} 
-                onChange={e => setTemplate({...template, body: e.target.value})}
-                style={{minHeight: '150px', background: '#1e293b', border: 'none', color: 'white'}}
-              />
             </div>
-          </div>
-        </div>
+          )}
+        </main>
       </div>
     </div>
   );
