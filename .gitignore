@@ -6,6 +6,7 @@ dist-ssr
 db/leads.json
 db/activity.log
 .vercel
+.env
 client/node_modules
 client/dist
 

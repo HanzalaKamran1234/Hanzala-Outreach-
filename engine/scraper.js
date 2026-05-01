@@ -1,22 +1,11 @@
 const google = require('google-it');
-const fs = require('fs');
-const path = require('path');
 const { validateEmail } = require('./validator');
-
-const DB_PATH = path.join(__dirname, '..', 'db');
-const LEADS_FILE = path.join(DB_PATH, 'leads.json');
+const { supabase } = require('./supabase');
 
 async function runScraper(targetCount = 10, filters = {}) {
     const { country = 'USA', city = '', niche = '', role = 'Owner' } = filters;
     
-    console.log(`🚀 Starting scraper for ${targetCount} leads in ${city}, ${country} (${niche})...`);
-
-    let currentLeads = [];
-    if (fs.existsSync(LEADS_FILE)) {
-        try {
-            currentLeads = JSON.parse(fs.readFileSync(LEADS_FILE, 'utf8'));
-        } catch (e) { currentLeads = []; }
-    }
+    console.log(`🚀 [Supabase] Starting scraper for ${targetCount} leads in ${city}, ${country} (${niche})...`);
 
     let foundCount = 0;
     
@@ -36,8 +25,7 @@ async function runScraper(targetCount = 10, filters = {}) {
         try {
             console.log(`[Query ${i+1}] ${query}`);
             
-            // Random delay to avoid bot detection
-            await new Promise(r => setTimeout(r, 2000 + Math.random() * 3000));
+            await new Promise(r => setTimeout(r, 2000 + Math.random() * 2000));
 
             const results = await google({ query, limit: 30, disableConsole: true });
 
@@ -54,7 +42,14 @@ async function runScraper(targetCount = 10, filters = {}) {
                     if (emailMatch) {
                         const email = emailMatch[0].toLowerCase();
                         
-                        if (currentLeads.some(l => l.email === email)) continue;
+                        // Check if email already exists in Supabase
+                        const { data: existing } = await supabase
+                            .from('leads')
+                            .select('email')
+                            .eq('email', email)
+                            .single();
+
+                        if (existing) continue;
 
                         const domain = email.split('@')[1];
                         const isGeneric = ['gmail.com', 'outlook.com', 'yahoo.com', 'hotmail.com', 'icloud.com', 'aol.com', 'msn.com'].includes(domain);
@@ -69,7 +64,6 @@ async function runScraper(targetCount = 10, filters = {}) {
                             }
                         } catch (e) {}
 
-                        // Blacklist check for domain
                         const blacklist = ['yelp.com', 'facebook.com', 'instagram.com', 'linkedin.com', 'twitter.com', 'yellowpages.com', 'google.com'];
                         if (blacklist.some(b => domain.includes(b))) continue;
 
@@ -77,7 +71,6 @@ async function runScraper(targetCount = 10, filters = {}) {
                             const bizName = title.split('-')[0].split('|')[0].split('—')[0].trim() || 'Unknown Company';
                             
                             const lead = {
-                                id: Date.now() + Math.random().toString(36).substr(2, 9),
                                 name: role || 'Decision Maker',
                                 company: bizName,
                                 email: email,
@@ -86,13 +79,19 @@ async function runScraper(targetCount = 10, filters = {}) {
                                 country: country || 'USA',
                                 niche: niche || 'General',
                                 status: 'Not Contacted',
-                                foundAt: new Date().toISOString()
+                                found_at: new Date().toISOString()
                             };
 
-                            currentLeads.push(lead);
+                            // Save to Supabase
+                            const { error } = await supabase.from('leads').insert([lead]);
+                            
+                            if (error) {
+                                console.error('Error saving to Supabase:', error.message);
+                                continue;
+                            }
+
                             foundCount++;
-                            fs.writeFileSync(LEADS_FILE, JSON.stringify(currentLeads, null, 2));
-                            console.log(`   [+] Added: ${email} (${bizName})`);
+                            console.log(`   [+] Saved to Supabase: ${email} (${bizName})`);
                         }
                     }
                 } catch (e) {}
@@ -105,8 +104,8 @@ async function runScraper(targetCount = 10, filters = {}) {
         }
     }
 
-    console.log(`\n✅ Scraper finished. New leads found: ${foundCount}`);
-    return currentLeads;
+    console.log(`\n✅ Scraper finished. New leads in Supabase: ${foundCount}`);
+    return { count: foundCount };
 }
 
 module.exports = { runScraper };

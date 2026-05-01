@@ -1,29 +1,25 @@
 const nodemailer = require('nodemailer');
-const fs = require('fs');
-const path = require('path');
-
-const DB_PATH = path.join(__dirname, '..', 'db');
-const LEADS_FILE = path.join(DB_PATH, 'leads.json');
+const { supabase } = require('./supabase');
 
 async function runMailer(smtpConfig, template, targetLeadId = null) {
-    if (!fs.existsSync(LEADS_FILE)) {
-        console.log("No leads found.");
-        return;
+    console.log(`🚀 [Supabase] Starting outreach...`);
+
+    let query = supabase.from('leads').select('*');
+    
+    if (targetLeadId) {
+        query = query.eq('id', targetLeadId);
+    } else {
+        query = query.eq('status', 'Not Contacted');
     }
 
-    let leads = JSON.parse(fs.readFileSync(LEADS_FILE, 'utf8'));
-    
-    // Filter leads to send to
-    const leadsToProcess = targetLeadId 
-        ? leads.filter(l => l.id === targetLeadId)
-        : leads.filter(l => l.status === 'Not Contacted');
+    const { data: leads, error: fetchError } = await query;
 
-    if (leadsToProcess.length === 0) {
+    if (fetchError || !leads || leads.length === 0) {
         console.log("No leads to process.");
         return;
     }
 
-    console.log(`Starting outreach to ${leadsToProcess.length} leads...`);
+    console.log(`Starting outreach to ${leads.length} leads...`);
 
     const transporter = nodemailer.createTransport({
         service: 'gmail',
@@ -33,7 +29,7 @@ async function runMailer(smtpConfig, template, targetLeadId = null) {
         }
     });
 
-    for (const lead of leadsToProcess) {
+    for (const lead of leads) {
         try {
             // Replace placeholders
             let body = template.body
@@ -50,29 +46,25 @@ async function runMailer(smtpConfig, template, targetLeadId = null) {
 
             await transporter.sendMail(mailOptions);
             
-            // Update lead status
-            const index = leads.findIndex(l => l.id === lead.id);
-            if (index !== -1) {
-                leads[index].status = 'Sent';
-                leads[index].sentAt = new Date().toISOString();
-            }
+            // Update lead status in Supabase
+            await supabase
+                .from('leads')
+                .update({ status: 'Sent', sent_at: new Date().toISOString() })
+                .eq('id', lead.id);
 
-            fs.writeFileSync(LEADS_FILE, JSON.stringify(leads, null, 2));
             console.log(`[✓] Sent to: ${lead.email}`);
 
             // Delay to avoid spam filters if sending multiple
-            if (leadsToProcess.length > 1) {
+            if (leads.length > 1) {
                 const delay = 5000 + Math.random() * 5000;
                 await new Promise(r => setTimeout(r, delay));
             }
         } catch (err) {
             console.error(`[✗] Failed for ${lead.email}:`, err.message);
-            const index = leads.findIndex(l => l.id === lead.id);
-            if (index !== -1) {
-                leads[index].status = 'Failed';
-                leads[index].error = err.message;
-            }
-            fs.writeFileSync(LEADS_FILE, JSON.stringify(leads, null, 2));
+            await supabase
+                .from('leads')
+                .update({ status: 'Failed', error: err.message })
+                .eq('id', lead.id);
         }
     }
 }
